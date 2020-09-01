@@ -29,11 +29,20 @@ import numpy as np
 
 def home (request):  
 
-    figura, variablederango = plt.subplots()
+    #FUNCIONA NO TOPAR
+    # figura, variablederango = plt.subplots()
 
-    variablederango.set_xlim(1, 20)
-    variablederango.set_ylim(1, 20)
-    variablederango.set_box_aspect(1)
+    # variablederango.set_xlim(1, 20)
+    # variablederango.set_ylim(1, 20)
+    # variablederango.set_box_aspect(1)
+
+    #FUNCIONA NO TOPAR
+    # figura, (linea,rango)= plt.subplots(ncols=2, sharey=True)
+    # linea.plot([1,0],[0,10])
+    # rango.plot([0,10],[0,10])
+    #linea.set_box_aspect(1)
+    #rango.set_box_aspect(1)
+
 
     buf= io.BytesIO()
     figura.savefig(buf, format="png")
