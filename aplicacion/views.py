@@ -45,6 +45,7 @@ def home (request):
     # figura, ax = plt.subplots()
     # ax.plot(x, y)
 
+    # Ejemplo 5 NO TOPAR
     x = np.linspace(-5,5,4000)
     y = np.sin(x)
 
